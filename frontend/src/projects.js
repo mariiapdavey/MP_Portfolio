@@ -1,0 +1,40 @@
+const projects = [
+    {
+        _id: '1',
+        name: 'Local Weather App',
+        image: '',
+        description:
+            'A dynamic web application that provides real-time weather updates for any location, featuring a clean and user-friendly interface.',
+        technology: 'Angular',
+        year: '2024',
+        category: 'Web Application',
+        link: '',
+        repository: '',
+    },
+    {
+        _id: '2',
+        name: 'Grocery List Manager',
+        image: '',
+        description:
+            'An intuitive app designed to help users create, manage, and organize their shopping lists efficiently.',
+        technology: 'Angular',
+        year: '2024',
+        category: 'Web Application',
+        link: '',
+        repository: '',
+    },
+    {
+        _id: '3',
+        name: 'Local Events Explorer',
+        image: '',
+        description:
+            'A modern web platform that allows users to discover, explore, and book tickets for local events with ease.',
+        technology: 'React.js, MongoDB',
+        year: '2024',
+        category: 'Web Application',
+        link: '',
+        repository: '',
+    }
+];
+
+export default projects
