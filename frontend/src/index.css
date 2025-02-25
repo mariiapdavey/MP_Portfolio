@@ -15,3 +15,14 @@ code {
 .custom-gradient {
   background: linear-gradient(to right, #cdffd8, #94b9ff);
 }
+
+.seasons-reg {
+  font-family: the-seasons, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.header {
+  border: 20px;
+}

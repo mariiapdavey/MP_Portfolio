@@ -5,22 +5,22 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 
 const Header = () => {
   return (
-    <header className="custom-gradient">
-        <Navbar expand="lg">
+    <header className="custom-gradient seasons-reg">
+        <Navbar expand="lg pt-0 pb-0">
             <Container>
                 <Navbar.Brand href="/">
                     <img 
                         src={MP_logo}
-                        height="150"
+                        height="80"
                         className="d-inline-block align-top" 
                         alt="Mariia Pozhar logo" 
                        />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
-                        <Nav.Link href="#projects">Projects</Nav.Link>
-                        <Nav.Link href="#about">About + Contact</Nav.Link>
+                    <Nav className="ms-auto text-lg-start text-center">
+                        <Nav.Link href="/projects" className="me-5">Projects</Nav.Link>
+                        <Nav.Link href="/about">About + Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
