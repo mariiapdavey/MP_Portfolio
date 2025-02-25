@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: realtive;
+  min-height: 100vh;
 }
 
 code {
@@ -20,9 +22,15 @@ code {
   font-family: the-seasons, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
-.header {
-  border: 20px;
+main {
+  flex-grow: 1;  /* Pushes footer down when the main content is smaller than the screen */
+}
+
+footer {
+  position:absolute;
+  bottom: 0;
+  width: 100%;
 }
