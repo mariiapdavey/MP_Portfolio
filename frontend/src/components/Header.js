@@ -1,10 +1,12 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import MP_logo from '../MP_logo.svg';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
 
 
 const Header = () => {
+    const location = useLocation();
 
   return (
     <header className="custom-gradient seasons-reg">
@@ -21,7 +23,10 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto text-lg-start text-center">
-                        <Nav.Link href="/projects" className="me-5">Projects</Nav.Link>
+                      {location.pathname !== '/' && (
+                        <Nav.Link href="/" className="me-5">Projects</Nav.Link>
+                      )}  
+                        
                         <Nav.Link href="/about">About + Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
