@@ -18,6 +18,8 @@ code {
   background: linear-gradient(to right, #cdffd8, #94b9ff);
 }
 
+/* FONTS */
+
 .seasons-reg {
   font-family: the-seasons, sans-serif;
   font-style: normal;
@@ -25,12 +27,62 @@ code {
   font-size: 18px;
 }
 
-main {
+.seasons-light {
+  font-family: the-seasons, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  }
+
+  .garamond-reg {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.main-content {
   flex-grow: 1;  /* Pushes footer down when the main content is smaller than the screen */
+  overflow-y: auto;
 }
 
 footer {
-  position:absolute;
+  position:fixed;
   bottom: 0;
   width: 100%;
+}
+
+.card {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-title {
+  text-align: center;
+
+}
+
+.card-text {
+  flex-grow: 1; /* Forces text to take up the same space */
+  overflow-y: auto;
+  white-space: normal;
+}
+
+.card-img-top {
+  height: 200px;  /* Adjust to your needs */
+  object-fit: contain; /* Ensures the image fills the space */
+}
+
+.button-style {
+  background-color: #a71f66;
+}
+
+h1 {
+  text-align: center;
 }

@@ -9,7 +9,7 @@ const App = () => {
     <>
     <Header/>
 
-    <main>
+    <main className='main-content'>
       <Container>
         <HomeScreen />
       </Container>

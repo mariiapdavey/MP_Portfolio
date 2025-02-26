@@ -2,7 +2,7 @@ const projects = [
     {
         _id: '1',
         name: 'Local Weather App',
-        image: '',
+        image: '/images/weather_app.jpg',
         description:
             'A dynamic web application that provides real-time weather updates for any location, featuring a clean and user-friendly interface.',
         technology: 'Angular',
@@ -14,7 +14,7 @@ const projects = [
     {
         _id: '2',
         name: 'Grocery List Manager',
-        image: '',
+        image: '/images/grocery_list_app.png',
         description:
             'An intuitive app designed to help users create, manage, and organize their shopping lists efficiently.',
         technology: 'Angular',
