@@ -6,7 +6,7 @@ import Project from '../components/Project'
 const HomeScreen = () => {
   return (
     <>
-        <h1 className='garamond-reg'>
+        <h1 className='garamond-reg mt-3'>
             <strong>My Projects</strong>
             </h1>
         <Row>

@@ -3,7 +3,9 @@ import MP_logo from '../MP_logo.svg';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
 
+
 const Header = () => {
+
   return (
     <header className="custom-gradient seasons-reg">
         <Navbar expand="lg pt-0 pb-0">

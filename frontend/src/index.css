@@ -35,9 +35,14 @@ code {
 
   .garamond-reg {
     font-family: "Cormorant Garamond", serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
   }
+
+header {
+  position:static;
+  width: 100%;
+}
 
 .main-content {
   flex-grow: 1;  /* Pushes footer down when the main content is smaller than the screen */
@@ -65,13 +70,13 @@ footer {
 
 .card-title {
   text-align: center;
-
+  font-size: 0.75em;
 }
 
 .card-text {
   flex-grow: 1; /* Forces text to take up the same space */
   overflow-y: auto;
-  white-space: normal;
+  white-space: normal; 
 }
 
 .card-img-top {
