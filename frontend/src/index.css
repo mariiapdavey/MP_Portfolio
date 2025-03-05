@@ -31,7 +31,7 @@ code {
   font-family: the-seasons, sans-serif;
   font-style: normal;
   font-weight: 300;
-  }
+}
 
   .garamond-reg {
     font-family: "Cormorant Garamond", serif;
@@ -44,10 +44,7 @@ header {
   width: 100%;
 }
 
-.main-content {
-  flex-grow: 1;  /* Pushes footer down when the main content is smaller than the screen */
-  overflow-y: auto;
-}
+
 
 footer {
   position:fixed;
@@ -55,33 +52,59 @@ footer {
   width: 100%;
 }
 
-.card {
-  height: 400px;
+/* CSS for Project */
+
+.card-style {
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.card-body {
+.cards img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 10px;
+  display: block;
+}
+
+.cards img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.cards .card-body {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 0;
 
 }
 
-.card-title {
+.cards .card-title {
   text-align: center;
-  font-size: 0.75em;
+  min-height: 3em;
+  overflow: hidden; /* prevents text overflow */
+  text-overflow: ellipsis;  /* show ellipses for long text*/
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* limits to 2 lines */
+  -webkit-box-orient: vertical;
+  white-space: normal; /* allow text wrapping */
+  padding-left: 0;
 }
 
 .card-text {
-  flex-grow: 1; /* Forces text to take up the same space */
-  overflow-y: auto;
-  white-space: normal; 
-}
-
-.card-img-top {
-  height: 200px;  /* Adjust to your needs */
-  object-fit: contain; /* Ensures the image fills the space */
+  min-height: 2em;
+  flex-grow: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* limits to 3 lines */
+  -webkit-box-orient: vertical;
+  white-space: normal; /* prevents text wrapping to keep card height consistent */
+  padding-left: 0;
 }
 
 .button-style {
@@ -91,3 +114,11 @@ footer {
 h1 {
   text-align: center;
 }
+
+.project-link {
+  text-decoration: none;
+  }
+  
+  .project-link:hover {
+    color: rgb(93, 20, 52);
+  }
