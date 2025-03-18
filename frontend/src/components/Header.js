@@ -26,8 +26,9 @@ const Header = () => {
                       {location.pathname !== '/' && (
                         <Nav.Link href="/" className="me-5">Projects</Nav.Link>
                       )}  
-                        
+                       {location.pathname !== '/about' && ( 
                         <Nav.Link href="/about">About + Contact</Nav.Link>
+                       )}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

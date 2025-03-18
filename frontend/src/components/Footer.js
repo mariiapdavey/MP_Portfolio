@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="custom-gradient">
         <Container>
-            <Row>
+            <Row className='garamond-reg'>
                 <Col className="text-center py-3"> &copy; Copyright 2025 Mariia Pozhar</Col>
             </Row>
         </Container>

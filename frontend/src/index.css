@@ -93,6 +93,7 @@ footer {
   -webkit-box-orient: vertical;
   white-space: normal; /* allow text wrapping */
   padding-left: 0;
+  font-size: 1.3em;
 }
 
 .card-text {
@@ -105,6 +106,7 @@ footer {
   -webkit-box-orient: vertical;
   white-space: normal; /* prevents text wrapping to keep card height consistent */
   padding-left: 0;
+  font-size: 1.1em;
 }
 
 .button-style {
@@ -122,3 +124,6 @@ h1 {
   .project-link:hover {
     color: rgb(93, 20, 52);
   }
+
+  /* CSS for ABOUT*/
+
