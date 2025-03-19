@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Col, Card, Container, Row } from 'react-bootstrap'
+import { Col, Card, Container, Row, Button } from 'react-bootstrap'
 
 const AboutScreen = () => {
   return (
@@ -31,11 +31,20 @@ const AboutScreen = () => {
           </Col>
 
           {/* Image Card */}
-          <Col md={4} className="order-1 order-md-2">
+          <Col md={4} className="order-1 order-md-2 d-flex flex-column justify-content-center align-items-center">
             <Card>
               <img src='/images/MP_icon.png' alt="Mariia Pozhar" className="image-card" />
             </Card>
+            
+            <a
+            className='btn btn-secondary text-dark my-3 w-100'
+            href='mailto:mariiapdavey@gmail.com'
+            >
+                SEND ME A NOTE
+            </a>
+            
           </Col>
+          
         </Row>
       </Container>
     </>
