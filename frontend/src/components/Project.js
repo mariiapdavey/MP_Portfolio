@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card } from 'react-bootstrap'
+import { Card, Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 
@@ -25,7 +25,7 @@ const Project = ({project}) => {
 
             </Card.Body>
         </Card>
-    
+   
   )
 }
 

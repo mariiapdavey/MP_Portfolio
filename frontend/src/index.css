@@ -5,8 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  position: realtive;
-  min-height: 100vh;
+  display: flex;
+  flex-direction:column;
+  min-height: 70vh;
+}
+
+main {
+  flex: 1;
 }
 
 code {
@@ -40,14 +45,14 @@ code {
   }
 
 header {
-  position:static;
+  position:relative;
   width: 100%;
 }
 
 
 
 footer {
-  position:fixed;
+  position:relative;
   bottom: 0;
   width: 100%;
 }
@@ -126,4 +131,30 @@ h1 {
   }
 
   /* CSS for ABOUT*/
+ 
 
+  .image-card {
+    max-height: 300px;
+    width: 85%;
+    object-fit: contain;
+    border-radius: 10px;
+    display: block;
+    align-self: center;
+  }
+  .card-text2 {
+    flex-grow: 1;
+    overflow: visible; /* Ensures text is not clipped */
+    text-overflow: clip; /* Disables ellipsis */
+    white-space: normal; /* Allows text to wrap */
+    padding-left: 0;
+    font-size: 1.1em;
+    padding: 10px 0;
+    margin: 0;
+    -webkit-line-clamp: unset; /* Removes line clamp */
+    display: block; /* Ensures proper text flow */
+  }
+
+  .full-screen {
+    min-height: 70vh; /* Ensures the container takes at least the full viewport height */
+  }
+  
