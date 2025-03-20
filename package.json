@@ -1,0 +1,22 @@
+{
+  "name": "mp_portfolio",
+  "version": "1.0.0",
+  "description": "Mariia Pozhar Portfolio app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariiapdavey/MP_Portfolio.git"
+  },
+  "author": "Mariia Pozhar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariiapdavey/MP_Portfolio/issues"
+  },
+  "homepage": "https://github.com/mariiapdavey/MP_Portfolio#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
