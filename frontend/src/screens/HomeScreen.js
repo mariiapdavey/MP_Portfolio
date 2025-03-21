@@ -8,16 +8,17 @@ const HomeScreen = () => {
     <>
         <h1 className='garamond-reg mt-3'>
             <strong>My Projects</strong>
-            </h1>
-           <Container fluid className="full-screen">
-           <Row className='g-3'>
-                {projects.map(p => (
-                    <Col sm={12} md={6} lg={4} xl={4}>
-                        <Project project={p} />
-                    </Col>
-                ))}
-            </Row>
-           </Container>
+        </h1>
+
+        
+        <Row className='g-3'>
+            {projects.map(p => (
+                <Col sm={12} md={6} lg={4} xl={4}>
+                    <Project project={p} />
+                </Col>
+            ))}
+        </Row>
+        
             
             
     </>

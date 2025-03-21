@@ -7,11 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-direction:column;
-  min-height: 70vh;
 }
 
 main {
-  flex: 1;
+  min-height: 78vh;
 }
 
 code {
@@ -50,12 +49,6 @@ header {
 }
 
 
-
-footer {
-  position:relative;
-  bottom: 0;
-  width: 100%;
-}
 
 /* CSS for Project */
 
