@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { Row, Col, Image, Card, Button, ListGroup } from 'react-bootstrap';
+import { Row, Col, Image, ListGroup } from 'react-bootstrap';
 import axios from 'axios';
 
 const ProjectScreen = () => {
@@ -8,23 +8,13 @@ const ProjectScreen = () => {
   const params = useParams();
   const [project, setProject] = useState({})
 
-  useEffect (() => {
+  useEffect (() =>{
     const fetchProject = async () => {
       const {data} = await axios.get (`/api/project/${params.id}`)
       setProject (data)
     }
     fetchProject()
   })
-  
-  useEffect(() =>{
-    const fetchProject = async () => {
-     // const {data} = await axios.get(`/api/project/${params.id}`) //
-     // setProject(data) //
-    }
-
-   // fetchProject()//
-  })
-
 
   return (
     <>

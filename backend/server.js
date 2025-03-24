@@ -1,5 +1,5 @@
-const express = require('express')
-const projects = require('./data/projects')
+import express from 'express'
+import projects from './data/projects.js'
 
 const app = express()
 
