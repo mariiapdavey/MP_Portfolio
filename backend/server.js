@@ -1,7 +1,9 @@
 import express from 'express'
+import dotenv from 'dotenv'
 import projects from './data/projects.js'
 
 const app = express()
+dotenv.config()
 
 app.get('/api/projects', (req, res) => {
     res.json(projects)
