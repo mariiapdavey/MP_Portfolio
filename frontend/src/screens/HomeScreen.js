@@ -1,9 +1,21 @@
-import React from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
-import projects from '../projects'
+import React, {useEffect, useState} from 'react'
+import axios from 'axios'
+import {Row, Col} from 'react-bootstrap'
 import Project from '../components/Project'
 
 const HomeScreen = () => {
+
+  const [projects, setProjects] = useState([])
+
+  useEffect(() => {
+    const fetchProjects = async () => {
+      const {data} = await axios.get('/api/projects') 
+      setProjects(data)
+    }
+
+    fetchProjects()
+  })
+
   return (
     <>
         <h1 className='garamond-reg mt-3'>
