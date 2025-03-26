@@ -1,9 +1,12 @@
-import express from 'express'
 import dotenv from 'dotenv'
+import express from 'express'
 import projects from './data/projects.js'
+import connectDB from './config/db.js'
 
 const app = express()
 dotenv.config()
+
+connectDB()
 
 app.get('/api/projects', (req, res) => {
     res.json(projects)
