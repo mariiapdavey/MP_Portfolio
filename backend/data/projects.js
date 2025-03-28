@@ -1,6 +1,5 @@
 const projects = [
     {
-        _id: '1',
         name: 'Local Weather App',
         image: '/images/weather_app.jpg',
         description:
@@ -12,7 +11,6 @@ const projects = [
         repository: '',
     },
     {
-        _id: '2',
         name: 'Grocery List Manager',
         image: '/images/grocery_list_app.png',
         description:
@@ -24,7 +22,6 @@ const projects = [
         repository: '',
     },
     {
-        _id: '3',
         name: 'Local Events Explorer',
         image: '',
         description:
