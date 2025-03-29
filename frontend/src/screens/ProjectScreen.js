@@ -10,7 +10,7 @@ const ProjectScreen = () => {
 
   useEffect (() =>{
     const fetchProject = async () => {
-      const {data} = await axios.get (`/api/project/${params.id}`)
+      const {data} = await axios.get (`/api/projects/${params.id}`)
       setProject (data)
     }
     fetchProject()
