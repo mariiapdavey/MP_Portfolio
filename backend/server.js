@@ -12,14 +12,17 @@ dotenv.config()
 connectDB()
 
 const __dirname = path.resolve()
+
+app.use('/api/projects', projectRoutes)
+
 if (process.env.NODE_ENV === 'production'){
     app.use(express.static(path.join(__dirname, '/frontend/build')))
-    app.get('*', (req, res) => {
+    app.get('*', (req, res) => 
         res.sendFile(path.resolve(__dirname, 'frontend', 'build', 'index.html'))
-    })
+    )
 }
-app.use('/api/projects', projectRoutes)
+
 
 const port = process.env.PORT
 app.use(errorHandler)
-app.listen(port, console.log('Server is now running on port ${port}'))
+app.listen(port, () => console.log(`Server is now running on port ${port}`))
