@@ -127,12 +127,12 @@ h1 {
  
 
   .image-card {
-    max-height: 300px;
-    width: 85%;
-    object-fit: contain;
-    border-radius: 10px;
+    max-height: 600px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
     display: block;
-    align-self: center;
+    align-self: flex-start;
   }
   .card-text2 {
     flex-grow: 1;
@@ -149,5 +149,9 @@ h1 {
 
   .full-screen {
     min-height: 70vh; /* Ensures the container takes at least the full viewport height */
+  }
+
+  .indented {
+    text-indent: 2em; /* or try 20px, 30px, etc. */
   }
   
