@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e1a2c68.css",
+    "main.js": "/static/js/main.e8b2f74d.js",
+    "static/js/453.dbe602a5.chunk.js": "/static/js/453.dbe602a5.chunk.js",
+    "static/media/MP_logo.svg": "/static/media/MP_logo.dbdba0f54e264093eb4eaddc3bdb8bc2.svg",
+    "index.html": "/index.html",
+    "main.7e1a2c68.css.map": "/static/css/main.7e1a2c68.css.map",
+    "main.e8b2f74d.js.map": "/static/js/main.e8b2f74d.js.map",
+    "453.dbe602a5.chunk.js.map": "/static/js/453.dbe602a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e1a2c68.css",
+    "static/js/main.e8b2f74d.js"
+  ]
+}
