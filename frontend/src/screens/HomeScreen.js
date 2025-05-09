@@ -9,12 +9,13 @@ const HomeScreen = () => {
 
   useEffect(() => {
     const fetchProjects = async () => {
-      const {data} = await axios.get('/api/projects') 
+      const {data} = await axios.get('/api/projects');
+      console.log('API response:', data); 
       setProjects(data)
-    }
+    };
 
-    fetchProjects()
-  })
+    fetchProjects();
+  }, []);
 
   return (
     <>
