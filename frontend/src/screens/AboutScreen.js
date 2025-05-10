@@ -23,27 +23,19 @@ const AboutScreen = () => {
 
                   <Card.Text as='div' className='garamond-reg card-text2'>
                   <p class="indented">
-                    Hi, I'm Mariia Pozhar — a full-stack web developer, former operations leader, and lifelong artist with a global story and a passion for building meaningful experiences.
+                    Hi, I’m Mariia Pozhar — a full-stack web developer, lifelong musician, and operations leader with a passion for building things that matter. I grew up in Odessa, Ukraine, where I studied music and spent over 10 years performing as a jazz and contemporary vocalist. Creativity has always been at the heart of what I do—whether it’s through music, leading teams, or writing clean, intuitive code.
                   </p>
 
                   <p class="indented">
-                    I was born and raised in Odessa, Ukraine, where I graduated from Odessa Musical College and spent over a decade performing as a professional jazz and contemporary vocalist. Music remains a core part of who I am—I continue to write, record, and share original music that reflects my journey and creative voice.
+                    My husband and I built one of Odessa’s most beloved hostel networks, including the Babushka Grand Hostel, which was named one of the 20 coolest hostels in Europe. After moving to the U.S. in 2014, I transitioned into nonprofit leadership, eventually serving as Director of Operations at Tacoma Refugee Choir — an organization that uses music to connect and empower people from all walks of life.
                   </p>
 
                   <p class="indented">
-                    My husband and I built one of the most beloved hostel networks in Odessa, including the Babushka Grand Hostel, named one of the top 20 coolest hostels in Europe. Following the 2014 crisis in Ukraine, we were forced to close most of our locations, but thanks to the strength of our family, the original hostel remained open for several more years—even during incredibly turbulent times.
+                    In recent years, I’ve fallen in love with tech and completed a Full-Stack Web Development Bootcamp at Kal Academy. I now create web applications using HTML, CSS, JavaScript, React, and Angular — with a focus on user experience, clean design, and meaningful function.
                   </p>
 
                   <p class="indented">
-                    After relocating to the U.S., I transitioned into operations and leadership roles—most recently serving as Director of Operations at Tacoma Refugee Choir, a nonprofit using music as a bridge across cultures. There, I developed internal systems, improved processes, and helped build a thriving community.
-                  </p>
-
-                  <p class="indented">
-                    Now, after completing a Full-Stack Web Development Bootcamp at Kal Academy, I’m excited to combine my creativity, technical skills, and people-first mindset in a new career. I build web applications with HTML, CSS, JavaScript, React, and I’m passionate about clean, intuitive user experiences that empower and connect people.
-                  </p>
-
-                  <p class="indented">
-                    When I’m not coding, you’ll find me spending time with my family, BBQing, exploring the beautiful Pacific Northwest, or building and fixing things—whether that’s home projects, tools, or new ideas.
+                    When I’m not coding or writing music, you’ll usually find me BBQing with my family, exploring the beautiful Pacific Northwest, or working on a DIY project around the house.
                   </p>
 
                   </Card.Text>
